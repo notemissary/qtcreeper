@@ -1,11 +1,13 @@
 # qtcreeper
 
+This one is going to a port for Python 3. But it's not ready yet!
+
 **Requires**
-* Python 2.7, https://www.python.org/download/releases/2.7/
+* Python 3, https://www.python.org/downloads/release/python-365/
 * python-requests module, which is included for convenience, but deleting it and installing it via Python's pip install tool might be better if you know how
 
 **Windows installation instructions for noobs**
-* Install Python 2.7 (*not* version 3), https://www.python.org/ftp/python/2.7.11/python-2.7.11.msi (link to 32 bit version but will probably work on all systems)
+* Install Python 3.6 (*not* version 2), https://www.python.org/ftp/python/3.6.5/python-3.6.5.exe (link to 32 bit version but will probably work on all systems)
 * In the qtcreeper github, click "Clone or download" -> "Download ZIP" to download all necessary files
 * Extract ZIP file
 * Double click qtcreeper.py to run
