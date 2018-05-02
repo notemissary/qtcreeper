@@ -4,16 +4,15 @@
 # https://github.com/notemissary/qtcreeper
 # Based on qtcreeper.py by anonimousse12345, https://github.com/anonimousse12345
 # which is based on interpals-autovisit.py by Hexalyse, https://github.com/Hexalyse
-# Requires python 3.6 and the requests and ujson module
+# Requires python 3.6+ and the requests and ujson module
 
-import ujson
 import os
-import random
-import re
-# import shutil
 import sys
+import re
+import random
 import time
 
+import ujson
 import requests
 
 # Number of users shown by Interpals per search page
@@ -54,7 +53,7 @@ DEFAULT_CONFIG = {
 }
 
 
-DATA_DIR = os.path.join(os.getcwd(), "qtcreeper")
+DATA_DIR = os.path.join(os.getcwd(), "data")
 CONFIG_FILE = os.path.join(DATA_DIR, "config.json")
 USERS_VISITED_FILE = os.path.join(DATA_DIR, "users_visited.txt")
 
