@@ -146,7 +146,7 @@ def get_word_list(prompt_text):
 config = {}
 
 print("Welcome to qtcreeper!")
-print("--> https://github.com/anonimousse12345/qtcreeper")
+print("--> https://github.com/notemissary/qtcreeper")
 print("User settings will be saved in: " + DATA_DIR)
 
 if os.path.exists(CONFIG_FILE):
